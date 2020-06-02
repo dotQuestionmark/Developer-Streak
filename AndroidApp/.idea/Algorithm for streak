@@ -1,0 +1,10 @@
+1)Start the chat block
+2)Define variable count in it
+3)If both user send a pic to each other, count=1
+4)Capture the exact time stamp and store it in t
+5)If both user send pic in less than 24 hrs from t then increment count by 1 
+- - another approach ,capture the date when both user send pics for first time and if they send pic within the next day increment count by 1 
+6)Else break streak
+7)If count <=30 days , place emoji1
+If count <=60 days, place emoji2 and so on
+8)Close block
